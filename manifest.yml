@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: Tesis
+  host: IKMTesis
+  disk_quota: 1024M
+  services:
+  - Natural Language Understanding-m9
+  - Cloudant NoSQL
